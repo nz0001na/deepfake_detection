@@ -7,7 +7,13 @@ This repository explores some detection algorithms for deepfake face images dete
 # Introduction
 * Cast the forgery detection as a binary classification problem (real/fake).
 
+# Manipulated face databases
+* 100k-generated dataset from Flickr-Face-HQ Dataset
+* FaceForensics++ database by four manipulation methods
+* DeepfakeTIMIT generated from VidTIMIT
 
+  ![arch](fig/sam.png)
+  
 # Image features
 ## Fast Fourier Transform (FFT) based Feature
   * Analyzes the characteristics of images on a domain defined by the Fourier transform.
@@ -63,11 +69,6 @@ frequencies.
 * FaceForensics++ transfer it to the forgery detection task by replacing the final fully connected layer with two outputs.
 * We use the well-trained network for our classification.
 
-
-# Manipulated face databases
-* 100k-generated dataset from Flickr-Face-HQ Dataset
-* FaceForensics++ database by four manipulation methods
-* DeepfakeTIMIT generated from VidTIMIT
 
 # Analysis and comparison
 * we extracted four types of image features, including Fast Fourier Transform (FFT), Image Quality Measure (IQM), Image Distortion Analysis (IDA), and deep learning based feature, on three manipulation face datasets, for binary classification (real or fake) using Support Vector
