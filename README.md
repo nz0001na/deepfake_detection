@@ -30,10 +30,10 @@ frequencies.
  
    MSE (Mean Squared Error), PSNR (Peak Signal to Noise Ratio), SNR (Signal to Noise Ratio), SC (Structual Content), MD (Maximum Difference), AD (Average Difference), NAE (Normalized Absolute Error), RAMD (R-Averaged MD), LMSE (Laplacian MSE), NXC (Normalized Cross-Correlation), MAS (Mean Angle Similarity), MAMS (Mean Angle Magnitude Similarity), SME (Spectral Magnitude Error), GME (Gradient Magnitude Error), GPE (Gradient Phase Error), SSIM (Structural Similarity Index), VIF (Visual Information Fidelity), and HLFI (High-Low Frequently Index). 
 
-(2) IQM-121:
+ (2) IQM-121:
 
-    It is another discriminative feature that can be capable of differentiating between genuine and fake faces based on a single frame.
-    Four different features, i.e., specular reflection, blurriness, chromatic moment, and color diversity, are extracted in our work, constituting a 121-dimensional feature vector. 
+  It is another discriminative feature that can be capable of differentiating between genuine and fake faces based on a single frame.
+  Four different features, i.e., specular reflection, blurriness, chromatic moment, and color diversity, are extracted in our work, constituting a 121-dimensional feature vector. 
 
 
 ## Steganalysis Feature
