@@ -1,0 +1,1 @@
+load '../data/quality_sets_labeled_global_gallery_rr.mat'
