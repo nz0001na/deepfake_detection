@@ -2,7 +2,7 @@
 This repository explores some detection algorithms for deepfake face images detection, and tries to extract more representative features of fake face images.
 
 # Content
-* Codes of deepfake detection algorithms
+* Some codes of deepfake detection algorithms
 
 # Introduction
 * Cast the forgery detection as a binary classification problem (real/fake).
