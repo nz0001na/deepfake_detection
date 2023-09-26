@@ -1,6 +1,8 @@
 # Deepfake face image detection
 This repository explores some detection algorithms for deepfake face images detection, and tries to extract more representative features of fake face images.
 
+[[report]](https://github.com/nz0001na/deepfake_detection/blob/main/deepfake.pdf)
+
 # Content
 * Some codes of deepfake detection algorithms
 
